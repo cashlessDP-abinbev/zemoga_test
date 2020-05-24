@@ -1,0 +1,21 @@
+zemoga_haspe.zemogahasp1:
+  path: '/zemoga_haspe/step1'
+  defaults:
+    _form: '\Drupal\zemoga_haspe\Form\ZemogaHasp1'
+    _title: 'First step'
+  requirements:
+    _permission: 'access content'
+zemoga_haspe.zemogahasp2:
+  path: '/zemoga_haspe/step2'
+  defaults:
+    _form: '\Drupal\zemoga_haspe\Form\ZemogaHasp2'
+    _title: 'Second step'
+  requirements:
+    _permission: 'access content'
+zemoga_haspe.zemogahasp3:
+  path: '/zemoga_haspe/step3'
+  defaults:
+    _form: '\Drupal\zemoga_haspe\Form\ZemogaHasp3'
+    _title: 'Congratulations!!'
+  requirements:
+    _permission: 'access content'

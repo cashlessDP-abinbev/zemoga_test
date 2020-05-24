@@ -1,0 +1,5 @@
+name: 'Zemoga Haspe'
+type: module
+description: 'An test for job in Zemoga!'
+package: 'Custom'
+core: '8.x'
